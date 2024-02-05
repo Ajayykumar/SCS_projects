@@ -1,0 +1,69 @@
+@font-face{
+    font-family: 'Gilroy-ExtraBoldItalic';
+    src: url(Gilroy-ExtraBoldItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-ExtraBoldItalic';
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    /* height: 703px; */
+    width: 100%;
+    height: 600px;
+    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 350px;
+    position: relative;
+}
+
+#center{
+    width: 55%;
+    height: 80%;
+    /* background-color: red; */
+    position: absolute;
+}
+
+
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+img{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text{
+    width: 400px;
+    overflow: hidden;
+    height: 90px;
+    background: rgba(204, 255, 0, 0.36);
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: -120px;
+    
+}
+
+.text h1{
+    padding: 5px;
+    font-size: 4vw;
+    position: absolute;
+    top: 100px;
+}
